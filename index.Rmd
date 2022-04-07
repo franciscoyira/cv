@@ -1,0 +1,266 @@
+---
+title: "Francisco Yirá's Resume"
+author: Francisco
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: 
+      - override.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
+      - resume               # DEFAULT FILE
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+# More about how to customise this template: https://towardsdatascience.com/create-your-resume-with-pagedown-package-in-r-123ca6310d52
+---
+
+Aside
+================================================================================
+
+Contact and More {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-globe"></i> [My data science blog](https://franciscoyira.com)
+- <i class="fa fa-envelope"></i> francisco.yira@outlook.com
+- <i class="fa fa-linkedin"></i> [in/franciscoyira](https://www.linkedin.com/in/franciscoyira/)
+- <i class="fa fa-github"></i> [github.com/franciscoyira](https://github.com/franciscoyira)
+- <i class="fa fa-phone"></i> + 569 5115 9191
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Highly skilled in R (tidyverse, rmarkdown and other packages), data visualisation, and explaining complex ideas in a straightforward way.
+
+- Experienced and proficient in SQL, Python, Git, statistical analysis, machine learning, causal inference and experimental design (A/B Testing).
+
+- Familiar with the AWS ecosystem and tools.
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Last updated in `r format(Sys.Date(), "%B %Y")`.
+
+Main
+================================================================================
+
+Francisco Yirá Albornoz {#title}
+--------------------------------------------------------------------------------
+
+### Data scientist and economist
+
+Data scientist, bachelor of economics, and highly skilled R programmer. I have experience using machine learning to solve business problems in retail and marketing/CRM, answering business questions through statistical modelling and causal inference, and automating processes and reports.
+
+I am passionate about enabling data-driven decision making and use data to solve problems and generate social impact. I like challenges and I am eager to learn more and share knowledge with others
+
+
+Formal Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Chile, Faculty of Economics and Business
+
+Diploma in Applied Econometrics
+
+Santiago, Chile
+
+2021 - 2020
+
+10-month program covering experimental design, causal inference with observational data and time series analysis.
+
+### Pontifical Catholic University of Chile, Faculty of Engineering
+
+Diploma in Big Data
+
+Santiago, Chile
+
+2018 - 2017
+
+144-hour program covering the fundamentals of machine learning, recommender systems, Hadoop, parallel computing and graph theory.
+
+### University of Chile, Faculty of Economics and Business
+
+B.S. in Economics
+
+Santiago Chile
+
+2015 - 2010
+
+Graduated with distinction. 5-year program.
+
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Data Scientist, Marketing
+
+WOM S.A. (Telecommunications)
+
+Santiago, Chile
+
+2021 - 2020
+
+- Used interpretable modeling techniques and unsupervised learning to guide the prioritisation of network infrastructure deployments. The resulting insights were made available to stakeholders via interactive reports, using packages such as `flexdashboard` and `plotly`.
+- Trained predictive models with the ML framework H2O to better target potential customers through call centre campaigns.
+- Performed impact evaluations of network investments using A/B testing, differences in differences, and matching.
+
+### Data Scientist, Marketing
+
+Walmart (Retail)
+
+Santiago, Chile
+
+2019 - 2018
+
+- Developed data transformation processes and implemented machine learning models that allowed the deployment of a personalized marketing strategy for the company's most important local brand. This included the development of churn models and clustering on transactional data.
+- Led the development of an internal R package aimed at streamlining processes and accelerating deliveries in our area.
+- Introduced the use of version control and unit tests to the team.
+
+### Data Analyst, Marketing
+
+Walmart (Retail)
+
+Santiago, Chile
+
+2018 - 2017
+
+- Gave answers to business questions from Walmart merchants and the marketing team by integrating multiple data sources with R and SQL, and by applying statistical modelling, econometrics and data visualisation techniques.
+- Automated ad-hoc reports by using parametrised R Markdown documents.
+- Improved the impact evaluation of key company decisions by incorporating causal inference methodologies in otherwise descriptive analyses.
+
+
+### Trainee, Public Sector Sales team
+
+Oracle (Software and IT)
+
+Santiago, Chile
+
+2017 - 2015
+
+::: concise
+- Supported my sales team by automating reports with VBA.
+- Kept track of sales opportunities KPIs.
+- Demoed Oracle products to government clients.
+- Developed a market study about innovative ways to sell Oracle products.
+:::
+
+### Research Assistant
+
+Libertad y Desarrollo (Think Tank)
+
+Santiago, Chile
+
+2013
+
+::: concise
+- Coauthored published research on shale gas' economic impact. 
+- Updated the institute's public data bank.
+- Assisted in research about energy, environment and labour market issues.
+:::
+
+
+Projects and additonal coursework {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### [DevOps on AWS](https://www.coursera.org/account/accomplishments/specialization/HCPFFS3XPN6T)
+
+Coursera
+
+N/A
+
+2022
+
+- 4-course specialisation introducing the AWS ecosystem and walking through hands-on exercises about DevOps concepts and tasks.
+
+### [Causal Inference with R (blog posts series)](https://www.franciscoyira.com/categories/causal-inference/)
+
+Self-learning project
+
+N/A
+
+2022
+
+- A series of articles in which I explain key causal inference concepts and methodologies in simple terms and with lots of code examples and visualisations.
+
+### [Analysing my music collection with Python and R](https://franciscoyira.com/post/music-analysis-python-pandas-matplotlib-r/)
+
+Self-learning project
+
+N/A
+
+2021
+
+- An analysis I did to practice Python skills. It involved importing and transforming XML data and performing data wrangling and visualisation.
+- I also combined Python and R code through the `reticulate` package to leverage the R visualisation capabilities on top of the `pandas` data pipeline.
+
+### Data collection for a survey of higher education institutions
+
+Ministry of Education, Chilean government
+
+Santiago, Chile
+
+2020
+
+- Developed R scripts to automatically create custom forms for each higher education institution, and then consolidated the completed forms into a single dataset by using Python scripts.
+
+### BI Dashboards development
+
+KMA Asset (Real estate investment trust)
+
+Santiago, Chile
+
+2017
+
+- Developed R scripts to automatically consolidate data from multiple CRM sources.
+- Developed dashboards in Power BI on top of that data to enable analysis and monitoring of business metrics (conversion KPIs, customer acquisition cost, etc).
+
+
+Publications and Presentations {data-icon=file}
+--------------------------------------------------------------------------------
+
+### [alicer: An internal R package to accelerate Walmart Chile analytics](https://onedrive.live.com/?authkey=%21AAyPFA9VDF00udA&cid=59E4C7D110DACCCC&id=59E4C7D110DACCCC%21509515&parId=59E4C7D110DACCCC%21509517&o=OneUp) *(Spanish)*
+
+LatinR: Latin American Conference on the Use of R in Research + Development.
+
+N/A
+
+2019 
+
+Presentation on our success case at Walmart developing R packages to accelerate workflows in the marketing analytics team.
+
+### [Have America's political parties lost control over their presidential nominations?](https://repositorio.uchile.cl/handle/2250/142244) *(Spanish)*
+
+University of Chile's academic repository.
+
+N/A
+
+2017
+
+*Undergraduate thesis for Economics major.* A statistical analysis of the factors that drive presidential nominations in the US political system, expanding on ’The Party Decides’ (M. Cohen, 2008) by leveraging new data and the Chow structural break test.
+
+Languages {data-icon=language}
+--------------------------------------------------------------------------------
+
+### English
+
+Fluent. IELTS Band 8.0.
+
+N/A 
+
+N/A
+
+### Spanish
+
+Native speaker.
+
+N/A
+
+N/A 
+
+### French
+
+Basic user (A1).
+
+N/A
+
+N/A 
