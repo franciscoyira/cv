@@ -20,7 +20,8 @@ Aside
 Contact and More {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-globe"></i> [My data science blog](https://franciscoyira.com)
+- <i class="fa fa-globe"></i> [Portfolio website](https://cv.franciscoyira.com/#projects)
+- <i class="fa fa-globe"></i> [Data science blog](https://www.franciscoyira.com/categories/data-science/)
 - <i class="fa fa-envelope"></i> francisco.yira@outlook.com
 - <i class="fa fa-linkedin"></i> [in/franciscoyira](https://www.linkedin.com/in/franciscoyira/)
 - <i class="fa fa-github"></i> [github.com/franciscoyira](https://github.com/franciscoyira)
@@ -144,35 +145,21 @@ Santiago, Chile
 - Developed a market study about innovative ways to sell Oracle products.
 :::
 
-### Research Assistant
-
-Libertad y Desarrollo (Think Tank)
-
-Santiago, Chile
-
-2013
-
-::: concise
-- Coauthored published research on shale gas' economic impact. 
-- Updated the institute's public data bank.
-- Assisted in research about energy, environment and labour market issues.
-:::
-
 
 Projects and additonal coursework {data-icon=laptop}
 --------------------------------------------------------------------------------
 
-### [DevOps on AWS](https://www.coursera.org/account/accomplishments/specialization/HCPFFS3XPN6T)
+### [Shiny app deployed on AWS tracking the Twitter presence of Chilean constituents](https://cv.franciscoyira.com/project/shiny-twitter-constituyentes/)
 
-Coursera
+Self-learning project
 
 N/A
 
 2022
 
-- 4-course specialisation introducing the AWS ecosystem and walking through hands-on exercises about DevOps concepts and tasks.
+- An app built with R’s `shiny` and deployed to AWS EC2 that automatically retrieves and visualises the most liked and RT’d tweets from the Chilean politicians who drafted the 2022 constitution proposal.
 
-### [Causal Inference with R (blog posts series)](https://www.franciscoyira.com/categories/causal-inference/)
+### [Causal Inference with R (blog posts series)](https://cv.franciscoyira.com/project/causal-inference-posts/)
 
 Self-learning project
 
@@ -182,7 +169,7 @@ N/A
 
 - A series of articles in which I explain key causal inference concepts and methodologies in simple terms and with lots of code examples and visualisations.
 
-### [Analysing my music collection with Python and R](https://franciscoyira.com/post/music-analysis-python-pandas-matplotlib-r/)
+### [Analysing my music collection with Python and R](https://cv.franciscoyira.com/project/music-python-r/)
 
 Self-learning project
 
@@ -218,7 +205,7 @@ Santiago, Chile
 Publications and Presentations {data-icon=file}
 --------------------------------------------------------------------------------
 
-### [alicer: An internal R package to accelerate Walmart Chile analytics](https://onedrive.live.com/?authkey=%21AAyPFA9VDF00udA&cid=59E4C7D110DACCCC&id=59E4C7D110DACCCC%21509515&parId=59E4C7D110DACCCC%21509517&o=OneUp) *(Spanish)*
+### [alicer: An internal R package to accelerate Walmart Chile analytics](https://cv.franciscoyira.com/project/walmart-chile-r-package/)
 
 LatinR: Latin American Conference on the Use of R in Research + Development.
 
@@ -259,7 +246,7 @@ N/A
 
 ### French
 
-Basic user (A1).
+Basic user (A2).
 
 N/A
 
