@@ -31,11 +31,11 @@ Contact and More {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Highly skilled in R (tidyverse, rmarkdown and other packages), data visualisation, and explaining complex ideas in a straightforward way.
+- Highly proficient in R programming, using various packages such as tidyverse and rmarkdown. Skilled in creating data visualisations and communicating complex ideas in a clear and concise way.
 
 - Experienced and proficient in SQL, Python, Git, statistical analysis, machine learning, causal inference and experimental design (A/B Testing).
 
-- Familiar with the AWS ecosystem and tools.
+- Familiar with Apache Airflow, PySpark and the AWS ecosystem and tools.
 
 
 Disclaimer {#disclaimer}
@@ -51,10 +51,10 @@ Francisco Yirá Albornoz {#title}
 
 ### Data scientist and economist
 
-Data scientist, bachelor of economics, and highly skilled R programmer. I have experience using machine learning to solve business problems in retail and marketing/CRM, answering business questions through statistical modelling and causal inference, and automating processes and reports.
+<!-- GENERAL VERSION -->
+Data scientist with background in economics and high proficiency in R programming. Skilled in applying machine learning techniques to optimise business outcomes in retail and marketing/CRM, as well as conducting statistical modelling and causal inference to answer business questions.
 
-I am passionate about enabling data-driven decision making and use data to solve problems and generate social impact. I like challenges and I am eager to learn more and share knowledge with others
-
+Experienced in automating processes and reports. Also proficient in Python for data analysis and model training. Passionate about leveraging data to enable data-driven decision making and to solve complex problems with social impact. Enthusiastic about learning new skills and sharing knowledge with others.
 
 Formal Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -95,6 +95,19 @@ Professional Experience {data-icon=suitcase}
 
 ### Data Scientist, Marketing
 
+MACH (Fintech)
+
+Santiago, Chile
+
+2022 - Present
+
+- Used Apache Airflow to develop an analytical asset that triggered proactive retention initiatives when a significant drop in transaction frequency was detected.
+- Proposed and implemented an experimentation framework for A/B testing best practices.
+- Trained predictive machine learning models using AWS cloud infrastructure (SageMaker, Athena and Glue) and PySpark.
+- Evaluated the causal impact of referral campaigns using Matching when the use of randomised control groups was not feasible.
+
+### Data Scientist, Marketing
+
 WOM S.A. (Telecommunications)
 
 Santiago, Chile
@@ -115,7 +128,7 @@ Santiago, Chile
 
 - Developed data transformation processes and implemented machine learning models that allowed the deployment of a personalized marketing strategy for the company's most important local brand. This included the development of churn models and clustering on transactional data.
 - Led the development of an internal R package aimed at streamlining processes and accelerating deliveries in our area.
-- Led the impact evaluation of the personalised marketing project by designing, implementing, and supervising A/B tests, in close collaboration with the CRM Ops team. 
+- Led the impact evaluation of the personalised marketing project by designing, implementing, and supervising A/B tests, in close collaboration with the CRM Ops team. This included devising solutions for increasing statistical power in contexts of small treatment effects. 
 
 ### Data Analyst, Marketing
 
@@ -145,9 +158,32 @@ Santiago, Chile
 - Developed a market study about innovative ways to sell Oracle products.
 :::
 
-
-Projects and additonal coursework {data-icon=laptop}
+Credentials and more education {data-icon=certificate}
 --------------------------------------------------------------------------------
+
+### [AWS Cloud Practitioner Certification](https://www.credly.com/badges/152c1ac3-a987-4b06-9346-df318561a3ca/public_url)
+
+AWS Training & Certification
+
+N/A
+
+2022
+
+- Earned an industry-recognized credential that validates foundational understanding of AWS Cloud concepts, services, and terminology. Demonstrated knowledge of cloud economics, security, architecture, and support models
+
+
+Contract and self-learning projects {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Optimisation of digital advertising budgets through statistical modelling
+
+Marketing Advance (Digital Marketing start-up)
+
+San Francisco, US (Remote)
+
+2022
+
+- Optimised budget allocation and estimated Return-of-investment metrics for digital advertising channels by performing Marketing Mix Modelling with Meta’s ‘[`Robyn`](https://facebookexperimental.github.io/Robyn/)’ R package.
 
 ### [Shiny app deployed on AWS tracking the Twitter presence of Chilean constituents](https://cv.franciscoyira.com/project/shiny-twitter-constituyentes/)
 
